@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="350" src="https://github.com/slorenzo/monoreactql/blob/master/media/monoreactql.png?raw=true" alt="Logo"/>
+  <img width="350" src="https://github.com/moove-it/monoreactql/blob/master/media/monoreactql.png?raw=true" alt="Logo"/>
 </p>
 
 ## Installation
@@ -7,7 +7,7 @@
 First, clone the repository:
 
 ```bash
-git clone https://github.com/slorenzo/monoreactql.git your-app
+git clone https://github.com/moove-it/monoreactql.git your-app
 ```
 
 ## Getting Started
@@ -20,13 +20,15 @@ yarn
 
 ### Set environment variables
 
-Add your environment variables on both `.env` files using `.env.example` as base model.
+Add your environment variables on the `.env` files using `.env.example` as base model.
+You must to fill them on both packages.
+
 Before, you must to run mongodb and redis to fill the environment variables.
 
 ### Run the app in development mode.
 
 ```bash
-yarn start dev
+yarn dev
 ```
 
 ## Authors

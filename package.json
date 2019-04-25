@@ -14,7 +14,7 @@
     "www": "yarn workspace @monoreactql/www start",
     "dev": "concurrently -n www,api --kill-others \"yarn www\" \"yarn api\""
   },
-  "repository": "https://github.com/slorenzo/monoreactql.git",
+  "repository": "https://github.com/moove-it/monoreactql.git",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^4.1.0"
