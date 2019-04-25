@@ -40,7 +40,7 @@ const server = new ProtectedApolloServer({
       // Here you can set if the user online
     },
   },
-  validationRules: [depthLimit(10)],
+  validationRules: [depthLimit(10)], // Set your depth limit
 });
 
 export default server;

@@ -4,11 +4,11 @@ import { isDev, APOLLO } from '../constants';
 
 const engine = new ApolloEngine({
   logging: { level: 'WARN' },
-  apiKey: APOLLO.engine.API_KEY,
+  apiKey: APOLLO.ENGINE.API_KEY,
   // Only send perf data to the remote server in production
   reporting: {
     disabled: isDev,
-    hostname: undefined, // Complete with your url.
+    hostname: APOLLO.ENGINE.HOSTNAME,
     privateHeaders: ['authorization', 'Authorization', 'AUTHORIZATION'],
   },
   queryCache: {

@@ -22,8 +22,9 @@ const JWT = {
 };
 
 const APOLLO = {
-  engine: {
+  ENGINE: {
     API_KEY: process.env.APOLLO_ENGINE_API_KEY,
+    HOSTNAME: process.env.APOLLO_ENGINE_HOSTNAME,
   },
 };
 
